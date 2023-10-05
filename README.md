@@ -1,0 +1,1 @@
+# Service for generating newsletter teasers, banners, headers and other content
