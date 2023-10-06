@@ -1,0 +1,30 @@
+<!-- horizontalOne.ejs -->
+<div class="container">
+    <table class="responsive">
+        <tr>
+            <td valign="top">
+                <!-- left -->
+                <table class="table-left">
+                    <tr>
+                        <td valign="top">
+                            <div class="div-left">
+                                <a href="<%- baseUrl %> <% if (hub) { %><%- urlFor("hotel", {url : hotelUrl}, hotelQuery, {ReMF: "false"}) %> <% } else { %><%- hotelUrl %> <% } %>"
+                                   name="<%- getTrackingName(hub, "image") %>"
+                                   target="_blank">
+                                    <img src="<%- nnbccImagePrefix %><%- image.url %>" alt="<%- image.alt %>" class="image">
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="spacer-row">
+                        <td colspan="2"></td>
+                    </tr>
+                </table>
+                <!-- right -->
+                <table class="table-right">
+                    <!-- ... rest of the content ... -->
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>

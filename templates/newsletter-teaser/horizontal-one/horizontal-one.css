@@ -1,0 +1,37 @@
+/* styles.css */
+.container {
+    text-align: center;
+}
+.responsive {
+    width: 600px;
+    border: 0;
+}
+.table-left {
+    width: 170px;
+    border: 0;
+}
+.text-left {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 130%;
+    color: #666666;
+    text-align: left;
+}
+.div-left {
+    text-align: left;
+    font-size: 0;
+    line-height: 0;
+}
+.image {
+    border: 0;
+    width: 150px;
+}
+.spacer-row {
+    height: 30px;
+    font-size: 0;
+    line-height: 30px;
+}
+.table-right {
+    width: 430px;
+    border: 0;
+}
